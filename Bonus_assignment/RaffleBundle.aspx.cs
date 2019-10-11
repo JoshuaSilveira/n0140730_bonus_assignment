@@ -18,7 +18,7 @@ namespace Bonus_assignment
             {
                 int ticketNum = Convert.ToInt32(ticket_num.Text);
                 double total = 0;
-                int leftOverCount = ticketNum;
+    
                 ticket_summary.InnerHtml = "";
                 if (ticketNum < 50)//first case number of tickets is less that 50
                  {
