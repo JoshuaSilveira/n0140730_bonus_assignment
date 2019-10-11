@@ -124,6 +124,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Coordinate.aspx" />
+    <Content Include="RaffleBundle.aspx" />
+    <Content Include="Weekly_Calendar.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -187,6 +190,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaffleBundle.aspx.cs">
+      <DependentUpon>RaffleBundle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RaffleBundle.aspx.designer.cs">
+      <DependentUpon>RaffleBundle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -207,6 +217,20 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Coordinate.aspx.cs">
+      <DependentUpon>Coordinate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coordinate.aspx.designer.cs">
+      <DependentUpon>Coordinate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Weekly_Calendar.aspx.cs">
+      <DependentUpon>Weekly_Calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Weekly_Calendar.aspx.designer.cs">
+      <DependentUpon>Weekly_Calendar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
